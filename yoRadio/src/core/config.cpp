@@ -646,7 +646,7 @@ void Config::setDefaults() {
   store.abuff = VS1053_CS==255?7:10;
   store.telnet = true;
   store.watchdog = true;
-  store.namestrim = true;           // За замовчуванням перемикач буде у положенні УВІМК.
+  store.namestrim = false;
   store.timeSyncInterval = 60;    //min
   store.timeSyncIntervalRTC = 24; //hour
   store.weatherSyncInterval = 30; //min
