@@ -1,7 +1,7 @@
 :root {
 --main-bg-color:        #010101;
 body {
-  background-color: var(--main-bg-color);
+  background-color: var(--main-bg-color); /* Резервный цвет, пока грузится картинка */
   background-image: url('fon.jpg'); 
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,4 +20,5 @@ body {
 --playlist-hover:       #323232;
 --section-gradient:     #111111;
 --section-border:       #555555;
+--heapbar-color:        #3ea220;
 }
