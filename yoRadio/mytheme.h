@@ -26,9 +26,9 @@
 #define COLOR_VU_MAX			255,  14,  14	 /*  колір максимуму VU-метра "вогняна цегла"  */
 #define COLOR_VU_MID            255, 255,   0	 /*  колір середини VU-метра "жовтаий"		   */
 #define COLOR_VU_MIN             44, 212,  32	 /*  колір початку VU-метра "Зелений"          */
-#define COLOR_CLOCK             210, 210, 100    /*  колір шрифту годинника                    */
+#define COLOR_CLOCK             255, 160,   0    /*  колір шрифту годинника                    */
 #define COLOR_CLOCK_BG            5,   5,   5    /*  колір фону годинника                      */
-#define COLOR_SECONDS			240, 240, 150    /*  колір шрифту секунд                       */
+#define COLOR_SECONDS			255, 180,   0    /*  колір шрифту секунд                       */
 #define COLOR_NAMEDAY           231, 211,  90	 /*  колір шрифту імен для іменин              */
 #define COLOR_DAY_OF_W          180, 180, 180    /*  колір шрифту дня тижня                    */
 #define COLOR_DATE              200, 200, 200    /*  колір шрифту дати                         */
